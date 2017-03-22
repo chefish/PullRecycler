@@ -31,7 +31,7 @@ public class WelcomeActivity extends BaseActivity {
 
     @Override
     protected void setUpData() {
-        handler.sendEmptyMessageDelayed(0, 1000);
+        handler.sendEmptyMessageDelayed(0, 100);
     }
 
     Handler handler = new Handler() {
