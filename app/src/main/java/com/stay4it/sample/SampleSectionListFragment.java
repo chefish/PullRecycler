@@ -111,9 +111,9 @@ public class SampleSectionListFragment extends BaseSectionListFragment<String> {
             mSampleListItemLabel.setVisibility(View.GONE);
             Glide.with(mSampleListItemImg.getContext())
                     .load(mDataList.get(position).t)
-                    .centerCrop()
-                    .placeholder(R.color.app_primary_color)
-                    .crossFade()
+//                    .centerCrop()
+//                    .placeholder(R.color.app_primary_color)
+//                    .crossFade()
                     .into(mSampleListItemImg);
         }
 

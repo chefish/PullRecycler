@@ -135,9 +135,9 @@ public class SampleListFragment extends BaseListFragment<Benefit> {
             mSampleListItemLabel.setVisibility(View.GONE);
             Glide.with(mSampleListItemImg.getContext())
                     .load(mDataList.get(position).url)
-                    .centerCrop()
-                    .placeholder(R.color.app_primary_color)
-                    .crossFade()
+//                    .centerCrop()
+//                    .placeholder(R.color.app_primary_color)
+//                    .crossFade()
                     .into(mSampleListItemImg);
         }
 
