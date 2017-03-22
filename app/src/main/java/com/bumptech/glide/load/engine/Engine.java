@@ -123,6 +123,7 @@ public class Engine implements EngineJobListener,
     }
 
     /**
+     * 最重要的load方法
      * Starts a load for the given arguments. Must be called on the main thread.
      * <p>
      * <p> The flow for any request is as follows: <ul> <li>Check the memory cache and provide the
